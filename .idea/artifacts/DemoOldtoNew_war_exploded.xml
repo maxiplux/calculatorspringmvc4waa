@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="DemoOldtoNew" />
+          <element id="module-output" name="calculatorspringmvcwaaphomework3" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" />
@@ -30,7 +30,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/DemoOldtoNew-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="DemoOldtoNew/web/Web" />
+      <element id="javaee-facet-resources" facet="calculatorspringmvcwaaphomework3/web/Web" />
     </root>
   </artifact>
 </component>
