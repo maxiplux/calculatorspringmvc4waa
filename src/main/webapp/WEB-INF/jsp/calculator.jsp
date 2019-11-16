@@ -1,4 +1,9 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+		 pageEncoding="ISO-8859-1" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +24,8 @@
 			</ul>
 		</c:if>
 
-		<form action="/result/" method="post">
+
+		<form:form action="/result/" method="post" commandName="customer">
 			<fieldset>
 				<legend>Input the number</legend>
 					<input type="text" size="4" id="add1" name="add1" value="${calculator.add1}" /> + 
@@ -34,7 +40,7 @@
 					<input id="submit" type="submit" value="Submit">
 				</p>
 			</fieldset>
-		</form>
+		</form:form>
 	</div>
 </body>
 </html>
